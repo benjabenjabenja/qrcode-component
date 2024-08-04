@@ -1,0 +1,57 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.italica {
+    font-style: italic;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    margin: 8rem auto;
+
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 16px;
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    max-height: 550px;
+    height: 100%;
+}
+.card span,
+.card strong {
+    background-color: white;
+}
+.card-media {
+    min-width: 100%;
+    background-color: white;
+}
+.card .card-media,
+.card .card-media .image-qr {
+    width: 100%;
+    height: calc(100% - 1rem);
+    border-radius: 8px;
+}
+.card .title,
+.card .secondary-text {
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+.card .secondary-text {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+}
